@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: 'Garamond', serif; /* Police élégante pour le style chic */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Couleur de texte sombre pour la lisibilité */
+    background-color: #f4f4f4; /* Couleur de fond claire et élégante */
+}
+
+header {
+    background-color: #2c3e50; /* Bleu foncé pour un look chic et viril */
+    color: #ecf0f1; /* Couleur de texte claire pour le contraste */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #e74c3c; /* Ligne rouge pour une touche vintage */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1; /* Couleur de lien claire pour correspondre à l'en-tête */
+    text-decoration: none;
+    font-weight: bold; /* Police en gras pour un effet viril */
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Changement de couleur au survol pour un effet chic */
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centrer le contenu principal */
+    background-color: #ffffff; /* Fond blanc pour un contraste élégant */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet de profondeur */
+    border-radius: 8px; /* Coins arrondis pour une touche moderne */
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 4px solid #e74c3c; /* Ligne rouge pour correspondre à l'en-tête */
+}
+
+/* Ajouter une touche d’élégance aux titres */
+h1, h2 {
+    font-family: 'Bodoni', serif; /* Police sophistiquée pour les titres */
+    color: #2c3e50; /* Couleur des titres */
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
